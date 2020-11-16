@@ -1,9 +1,11 @@
 h1 {
+   font-family: 'Spartan', sans-serif;
   margin-top: 400px;
   text-align: center;
 }
 
 h3 {
+  font-family: 'Spartan', sans-serif;
   text-align: center;
   color: #b3b7bd
 }
