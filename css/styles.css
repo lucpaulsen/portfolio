@@ -2,10 +2,12 @@ h1 {
    font-family: 'Spartan', sans-serif;
   margin-top: 400px;
   text-align: center;
+  font-size: 75px;
 }
 
 h3 {
   font-family: 'Spartan', sans-serif;
   text-align: center;
-  color: #b3b7bd
+  color: #b3b7bd;
+  font-size: 40px;
 }
