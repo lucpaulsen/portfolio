@@ -192,9 +192,8 @@ footer {
 .imggal {
   display: grid;
   grid-template-columns: 15% 15% 15% 15%;
-  grid-gap: 30px;
+  grid-gap: 2.4em;
   justify-content: center;
-  align-items: baseline;
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -203,8 +202,8 @@ footer {
 .imggal h2 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 100%
+  align-items: baseline;
+  font-size: 100%;
 }
 
 .imggal img {
