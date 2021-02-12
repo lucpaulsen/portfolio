@@ -162,6 +162,9 @@ footer {
   text-align: center;
 }
 
+.presentation p{
+  font-size: 1.1em;
+}
 .presentation img {
   width: 60%;
 }
