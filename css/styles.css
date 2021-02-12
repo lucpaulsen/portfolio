@@ -1,13 +1,206 @@
-h1 {
-   font-family: 'Spartan', sans-serif;
-  margin-top: 400px;
-  text-align: center;
-  font-size: 42px;
+@charset "UTF-8";
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+body {
+  background-color: #f6f5f5;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
-h3 {
-  font-family: 'Spartan', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+		font-weight: 800;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.content-wrap {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+section {
+  width: 100%;
+}
+
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0px;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  color: #505050;
+  font-size: 16px;
+}
+
+.logo {
+  color: #000;
+  font-size: 24px;
+}
+
+.active {
+  font-weight: bold;
+  color: #rgba(0, 0, 0, 0.5);
+}
+
+.headerimg img {
+  display: flex;
+  width: 100%;
+}
+
+.projects {
+
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+
+}
+.project-item img {
+  float: left;
+  margin-right: 20px;
+  width: 30%
+}
+.project-item h3 {
+  margin-top: 0px;
+}
+
+.footer {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: inline-block;
+  justify-content: center;
+}
+
+footer {
+  background: #343434;
+  color: #F7FFF7;
   text-align: center;
-  color: #b3b7bd;
-  font-size: 18px;
+}
+
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+  padding-left: 0px;
+}
+.contact-list a {
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer img {
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+.aaulogo img {
+  float: left;
+  margin-right: 20px;
+  width: 10%;
+}
+
+.presentation {
+  max-width: 50em;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom:;
+  text-align: center;
+}
+
+.presentation img {
+  width: 60%;
+}
+
+.frontbutton {
+  display: flex;
+  justify-content:center;
+  padding: 15px;
+}
+
+.frontbutton .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  margin: 1em;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.frontbutton .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+
+.imggal {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.imggal img {
+  width: 100%;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+
 }
