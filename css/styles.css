@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 body {
@@ -42,7 +41,7 @@ section {
 
 .divider > section {
   border-bottom: 1px dashed #343434;
-  padding: 25px 0px;
+  padding: 20px 0px;
 }
 .divider > section:last-of-type {
   border-bottom: none;
@@ -84,9 +83,19 @@ nav ul li a {
   width: 100%;
 }
 
-.projects {
-
+.projects h1 {
+  font-size: 2em;
 }
+
+.projects h2 {
+  font-size: 1.5em;
+}
+
+.projects h3 {
+  font-size: 1em;
+}
+
+
 .projects a {
   color: #2F3061;
 }
@@ -98,6 +107,7 @@ nav ul li a {
   border-radius: 4px;
   display: inline-block;
 }
+
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
@@ -110,6 +120,8 @@ nav ul li a {
   margin-right: 20px;
   width: 30%
 }
+
+
 .project-item h3 {
   margin-top: 0px;
 }
@@ -150,12 +162,11 @@ footer {
 .aaulogo img {
   float: left;
   margin-right: 20px;
-  width: 10%;
+  width: 11%;
 }
 
 .presentation {
-  max-width: 50em;
-  width: 85%;
+  max-width: 65%;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom:;
@@ -163,10 +174,14 @@ footer {
 }
 
 .presentation p{
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .presentation img {
   width: 60%;
+}
+
+.imggal img:hover {
+  opacity: 0.8;
 }
 
 .frontbutton {
@@ -211,5 +226,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.contactme {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contactme h1 {
+  text-align: center;
 }
