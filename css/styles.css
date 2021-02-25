@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-		font-weight: 800;
+		font-weight: bold;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -20,12 +20,13 @@ ul {
 }
 
 p {
-  font-weight: lighter;
+  font-weight:lighter;
 }
 
 a {
   text-decoration: none;
   font-weight: lighter;
+  color: #212121;
 }
 
 .content-wrap {
@@ -97,7 +98,8 @@ nav ul li a {
 
 
 .projects a {
-  color: #2F3061;
+  color: #000;
+  text-decoration: underline;
 }
 .projects .btn {
   color: #F7FFF7;
@@ -113,18 +115,17 @@ nav ul li a {
 }
 .project-item {
   overflow: hidden;
-
+  background: #fff;
+  border-radius: 1em;
+  padding: 1%
 }
+
 .project-item img {
   float: left;
   margin-right: 20px;
   width: 30%
 }
 
-
-.project-item h3 {
-  margin-top: 0px;
-}
 
 .footer {
   max-width: 800px;
@@ -166,18 +167,49 @@ footer {
 }
 
 .presentation {
-  max-width: 65%;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom:;
-  text-align: center;
+  display: inline-grid;
+  grid-template-columns: 43% 42%;
+  max-width: 85%;
+  margin-left: 18%
+
 }
 
-.presentation p{
-  font-size: 1em;
+.presentationtext {
+  background: #2F3061;
+  border-radius: 1em;
+  padding: 20px;
+  margin-top: 40px;
 }
-.presentation img {
+
+
+.presentation p {
+  font-size: 1em;
+  color: #fff;
+}
+
+.presentation a{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.presentation h1{
+  color: #fff;
+  font-size: 36px;
+}
+
+.presentation h2{
+  color: #fff;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.presimg {
+  margin: 40px;
+}
+
+.presimg img {
   width: 60%;
+  margin-left: 18%;
 }
 
 .imggal img:hover {
@@ -186,21 +218,23 @@ footer {
 
 .frontbutton {
   display: flex;
-  justify-content:center;
-  padding: 15px;
+  margin-left: 18%;
+  text-align: left;
 }
 
 .frontbutton .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #000;
+  border-color: #2F3061;
+  border-style: solid;
   text-decoration: none;
-  margin: 1em;
+  margin-top: .5em;
+  margin-right: .2em;
   padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
+  border-radius: 1em;
 }
 .frontbutton .btn:hover {
   background: rgba(47, 48, 97, 80%);
+  color: #fff;
 }
 
 
@@ -219,6 +253,7 @@ footer {
   justify-content: center;
   align-items: baseline;
   font-size: 100%;
+  font-weight: 400;
 }
 
 .imggal img {
@@ -237,4 +272,46 @@ footer {
 
 .contactme h1 {
   text-align: center;
+}
+
+.scroll {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%
+}
+
+.scroll img {
+  width: 3%
+}
+
+.title {
+  text-align: center;
+  padding: 1%;
+  font-size: 36px;
+}
+
+.work {
+  background: #2F3061;
+  border-radius: 1em;
+  padding: 1%;
+  margin-bottom: 2%
+}
+
+.top {
+  color: #fff;
+}
+
+.top h2 {
+  align-items: baseline;
+}
+
+
+.top p {
+  align-items: center;
+}
+
+.top img {
+  width: 10%;
+  float: left;
+  margin-right: 20px;
 }
